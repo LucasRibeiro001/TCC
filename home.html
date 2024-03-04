@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Finance - Controle de finanças</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Finance - Controle de finanças</h2>
+        <nav class="navigation">
+            <a href="">Ver desempenho</a>
+            <a href="">Alterar rendas</a>
+            <a href=""><ion-icon name="person"></ion-icon></a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="rendas">
+            <h3 class="text-renda">Rendas</h3>
+            <div class="valores-renda">
+                <div class="renda-fixa">
+                    <p class='text-fixa'>Renda fixa</p>
+                    <p class="valor-fixa">R$ 0,00</p>
+                </div>
+                <div class="renda-extra">
+                    <p class='text-extra'>Renda extra</p>
+                    <p class="valor-extra">R$ 0,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-trp">
+            <div class="gastos">
+                <h3 class="text-gastos">Gastos</h3>
+            <div class="gastos-labels">
+                <label>
+                    <p class="contas">Conta de água:</p>
+                    <input type="number" placeholder="R$0,00" required>
+                </label>
+                <label>
+                    <p class="contas">Conta de energia:</p>
+                    <input type="number" placeholder="R$0,00" required>
+                </label>
+                <label>
+                    <p class="contas">Conta de internet:</p>
+                    <input type="number" placeholder="R$0,00" required>
+                </label>
+                <label>
+                    <p class="contas">Compras gerais:</p>
+                    <input type="number" placeholder="R$0,00" required>
+                </label>
+            </div>
+            <div class="buttonArea">
+                <button>Calcular</button>
+            </div>
+            </div>
+            <div class="resultado-relatorio">
+                <div class="resultado">
+                    <h3 class="text-resultado">Resultados</h3>
+                    <div class="saldo">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                        <p class="text-saldo">Saldo</p>
+                        <p class="text-saldo-valor">R$ 0,00</p>
+                    </div>
+                    <div class="deposito">
+                        <ion-icon name="remove-circle-outline"></ion-icon>
+                        <p class="text-deposito">Depósto</p>
+                        <p class="text-deposito-valor">R$ 0,00</p>
+                    </div>
+                </div>
+                <div class="relatorio">
+                    <div class="link-relatorio">
+                    <a href="#" class="view-relatorio">
+                        <ion-icon name="bar-chart"></ion-icon><p class="text-view-relatorio">Ver relatório de despesas</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;300;500;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+header{
+    position: relative;
+    background-color: #07f;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    color: #fff;
+    font-size: 20px;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(105, 175, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: all .3s;
+}
+
+.navigation a:hover{
+    color: #fff;
+}
+
+.navigation ion-icon{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-top: 0;
+    transition: all .3s;
+}
+
+.navigation ion-icon:hover{
+    color: #fff;
+}
+
+.container{
+    display: block;
+    margin: 20px 200px;
+}
+
+/*/////////////////////////////////////////////////////////*/
+
+.rendas{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.valores-renda{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.renda-fixa{
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(34, 34, 49);
+    background-color: #ffff;
+    box-shadow:  15px 15px 100px #dbdbdb;
+}
+
+.text-renda{
+    text-align: center;
+    user-select: none;
+    font-size: 25px;
+    color: rgb(34, 34, 49);
+}
+
+.text-fixa{
+    user-select: none;
+    color: #a3a3a3;
+    font-weight: 500;
+}
+
+.text-extra{
+    user-select: none;
+    color: #a3a3a3;
+    font-weight: 500;
+}
+
+.valor-fixa{
+    color: #07f;
+    font-size: 20px;
+}
+
+.valor-extra{
+    color: #07f;
+    font-size: 20px;
+}
+
+.renda-extra{
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(34, 34, 49);
+    background-color: #fff;
+    box-shadow:  15px 15px 100px #dbdbdb;
+}
+
+/*//////////////////////////////////*/
+
+.container-trp{
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-gastos{
+    text-align: center;
+    user-select: none;
+    font-size: 25px;
+    color: rgb(34, 34, 49);
+}
+
+.contas{
+    margin: 5px;
+    color: #07f;
+    font-weight: bold;
+}
+
+.gastos-labels{
+    margin-top: 15px; 
+}
+
+.gastos-labels input{
+    padding: 5px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+}
+
+.buttonArea{
+    margin-top: 10px;
+}
+
+.buttonArea button{
+    width: 100%;
+    padding: 8px;
+    background-color: #07f;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.buttonArea button:hover{
+    background-color: rgb(105, 175, 255);
+}
+
+.gastos{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+.resultado-relatorio{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.resultado{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    justify-content: space-between;
+}
+
+.text-resultado{
+    text-align: center;
+    user-select: none;
+    font-size: 25px;
+    color: rgb(34, 34, 49);
+}
+
+.saldo{
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  15px 15px 100px #dbdbdb;
+}
+
+.saldo ion-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px ;
+    color: #0b7;
+}
+
+.text-saldo{
+    color: rgb(34, 34, 49);
+    font-weight: bold;
+}
+
+.text-saldo-valor{
+    margin-left: 5px;
+    font-weight: bold;
+    color: #0b7;
+}
+
+.deposito{
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  15px 15px 100px #dbdbdb;
+}
+
+.deposito ion-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px ;
+    color: red;
+}
+
+.text-deposito{
+    color: rgb(34, 34, 49);
+    font-weight: bold;
+}
+
+.text-deposito-valor{
+    margin-left: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+.relatorio{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    height: 115px;
+    border-radius: 5px;
+}
+
+.link-relatorio{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 2em;
+    border: 1px solid rgb(34, 34, 49);
+    box-shadow:  15px 15px 100px #dbdbdb;
+}
+
+.view-relatorio{
+    display:flex;
+    text-decoration: none;
+    margin-left: 20px;
+    align-items: center;
+    color: rgb(34, 34, 49);
+    transition: all .3s;
+}
+
+.view-relatorio:hover{
+    color: #07f;
+}
+
+.view-relatorio ion-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.text-view-relatorio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+}
